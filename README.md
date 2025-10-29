@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advocate Sapana Nalegavkar | Pune Session Court</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400|Roboto:400,300&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f1f6fa;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(120deg, #22577E 70%, #FFD700 100%);
+            color: white;
+            text-align: center;
+            padding: 64px 20px 40px 20px;
+            position: relative;
+        }
+        header img {
+            width: 120px;
+            border-radius: 50%;
+            border: 6px solid #FFD700;
+            margin-bottom: 18px;
+        }
+        h1 {
+            font-family: 'Montserrat', Arial, sans-serif;
+            font-size: 2.8em;
+            margin-bottom: 0.2em;
+        }
+        .tagline {
+            font-size: 1.3em;
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin-bottom: 1em;
+        }
+        .cta-btn {
+            background: #FFD700;
+            color: #22577E;
+            font-weight: bold;
+            padding: 12px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 1.1em;
+            box-shadow: 0 2px 8px #0002;
+            transition: background 0.2s;
+        }
+        .cta-btn:hover {
+            background: #ffea70;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 18px;
+            box-shadow: 0 2px 18px #0001;
+            padding: 36px 28px;
+        }
+        .about {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+        }
+        .about img {
+            width: 180px;
+            border-radius: 18px;
+            box-shadow: 0 2px 8px #0002;
+        }
+        .about-text {
+            flex: 1;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 28px;
+            text-align: center;
+        }
+        .service-card {
+            padding: 24px 10px;
+            background: #f7fafd;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px #0001;
+        }
+        .service-card img {
+            width: 48px;
+            margin-bottom: 12px;
+        }
+        .testimonials {
+            background: #22577E;
+            color: white;
+            border-radius: 12px;
+            padding: 36px;
+            text-align: center;
+        }
+        .testimonial {
+            font-size: 1.2em;
+            margin-bottom: 18px;
+            font-style: italic;
+        }
+        .client {
+            font-size: 1em;
+            font-weight: bold;
+            color: #FFD700;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+        .contact-form button {
+            background: #22577E;
+            color: #FFD700;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1em;
+            cursor: pointer;
+            font-family: 'Montserrat', Arial, sans-serif;
+        }
+        .contact-form button:hover {
+            background: #FFD700;
+            color: #22577E;
+        }
+        footer {
+            background: #22577E;
+            color: white;
+            text-align: center;
+            padding: 24px 16px;
+            margin-top: 48px;
+            border-top: 4px solid #FFD700;
+        }
+        .social-icons img {
+            width: 28px;
+            margin: 0 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=facearea&w=256&h=256" alt="Advocate Sapana Nalegavkar">
+        <h1>Advocate Sapana Nalegavkar</h1>
+        <div class="tagline">Justice. Integrity. Excellence.<br>LLB, LLM | Pune Session Court</div>
+        <a href="#contact" class="cta-btn">Get Legal Advice</a>
+    </header>
+    <section>
+        <div class="about">
+            <img src="https://images.unsplash.com/photo-1523292562811-5c5b8c1a8f5c?auto=format&fit=crop&w=400&q=80" alt="Professional Image">
+            <div class="about-text">
+                <h2>About Advocate Sapana Nalegavkar</h2>
+                <p>Advocate Sapana Nalegavkar, a highly qualified and experienced legal professional, brings a wealth of expertise in civil, criminal, family, corporate, and property law. With a commitment to justice and client welfare, Sapana delivers personalized legal solutions, strong courtroom advocacy, and transparent guidance.</p>
+                <ul>
+                    <li>LLB, LLM - Premier Indian Universities</li>
+                    <li>Practicing at Pune Session Court</li>
+                    <li>Member, Maharashtra Bar Council</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 style="text-align:center;">Legal Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2936/2936901.png" alt="Civil Litigation">
+                <h3>Civil Litigation</h3>
+                <p>Dispute resolution and representation in all types of civil matters, including contracts, torts, and property issues.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Criminal Defense">
+                <h3>Criminal Defense</h3>
+                <p>Expert defense in criminal cases, ensuring fair treatment and safeguarding your rights at every stage.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png" alt="Family Law">
+                <h3>Family Law</h3>
+                <p>Compassionate support for divorce, custody, alimony, and related family law matters.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Property Disputes">
+                <h3>Property Disputes</h3>
+                <p>Resolving land and property conflicts, title verification, and documentation assistance.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Corporate Law">
+                <h3>Corporate Law</h3>
+                <p>Business formation, contracts, compliance, and dispute resolution for companies and startups.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1157/1157002.png" alt="Consultations">
+                <h3>Consultations & Advice</h3>
+                <p>One-on-one legal consultations to help you understand your rights and options before taking action.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 style="text-align:center;">What Clients Say</h2>
+        <div class="testimonials">
+            <div class="testimonial">"Sapana Nalegavkar is exceptionally skilled and truly cares about her clients' success."</div>
+            <div class="client">- Rajesh P.</div>
+            <div class="testimonial">"Professional, reliable, and trustworthy. Helped me navigate a complex property dispute with confidence."</div>
+            <div class="client">- Priya S.</div>
+            <div class="testimonial">"Highly recommend for family law matters. Sapana's approach is both compassionate and effective."</div>
+            <div class="client">- Amit D.</div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 style="text-align:center;">Contact Advocate Sapana Nalegavkar</h2>
+        <form class="contact-form" action="mailto:sapana.nalegavkar@example.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div style="margin-top:24px; text-align:center;">
+            <strong>Office Address:</strong> Pune Session Court, Pune, Maharashtra<br>
+            <strong>Email:</strong> sapana.nalegavkar@example.com<br>
+            <strong>Phone:</strong> +91-XXXXXXXXXX
+        </div>
+    </section>
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/174/174876.png" alt="LinkedIn"></a>
+        </div>
+        <div style="margin-top:8px;">
+            &copy; 2025 Advocate Sapana Nalegavkar | Designed for Excellence
+        </div>
+        <div style="font-size:0.9em; margin-top:8px;">
+            Disclaimer: This website is for informational purposes only and does not constitute legal advice. For specific legal concerns, please contact directly.
+        </div>
+    </footer>
+</body>
+</html>
